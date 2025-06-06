@@ -1,9 +1,9 @@
 ---
 title: Diabetic Retinopathy Detection from Retinal Fundus Images
 authors: 
-  - name: Josef Silverstein
+  - name: Joseph Russell
     affiliations:
-      - Columbia University
+      - Northeastern University
 reviewers:
   - name: Roy Gabriel
     affiliations:
