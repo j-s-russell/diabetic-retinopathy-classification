@@ -22,7 +22,7 @@ project:
         - file: 04_Traditional_Methods_Code.ipynb
     - title: Deep Learning Methods
       children:
-        - file: 05_Deep Learning_Methods.md
+        - file: 05_Deep_Learning_Methods.md
         - file: 05_Deep_Learning_Methods_Code.ipynb
     - title: Compare Results
       children:
