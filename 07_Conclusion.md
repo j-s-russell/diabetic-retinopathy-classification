@@ -1,6 +1,4 @@
 # Conclusion
 
-```{tip}
-- Conclude this project 
-    
-```
+This project demonstrated the potential and limitations of deep learning approaches for automated diabetic retinopathy detection. While EfficientNet-B3 achieved superior quantitative performance (63.0% balanced accuracy, 0.849 QWK), GradCAM analysis revealed concerning interpretability issues that challenge clinical deployment readiness. Additionally, the universal struggle with severe cases across all models highlights a critical gap between algorithmic performance and clinical needs. This emphasizes how positive initial results, like a high QWK, can be misleading if they do not fully encapsulate what is necessary for your problem, such as detecting severe cases.
+The results underscore that model selection for medical AI requires balancing quantitative metrics with interpretability and clinical appropriateness. Despite lower overall performance, ResNet-50's more anatomically coherent attention patterns may offer greater clinical trustworthiness than EfficientNet's statistical superiority. Future work must prioritize addressing class imbalance, improving severe case detection, and developing more clinically interpretable architectures.
