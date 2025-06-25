@@ -25,7 +25,7 @@ Machine learning, especially deep learning with convolutional neural networks (C
 - Evaluating model performance and addressing class imbalance
 - Comparing model outputs with clinical grading standards
 
-By the end, you'll understand how automated DR detection systems can support clinicians, reduce screening costs, and help deliver faster diagnoses—especially in underserved regions.
+By the end, you'll understand how automated DR detection systems can support clinicians, reduce screening costs, and help deliver faster diagnoses.
 
 ---
 
