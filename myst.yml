@@ -11,7 +11,10 @@ project:
     - file: README.md
     - file: Setup_Instructions.md
     - file: 01_Introduction.md
-    - file: 02_EDA.ipynb
+    - title: Exploratory Data Analysis
+      children:
+        - file: 02_EDA.md
+        - file: 02_EDA.ipynb
     - title: Evaluation Methods
       children:
         - file: 03_Evaluation.md
