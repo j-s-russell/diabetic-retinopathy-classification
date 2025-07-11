@@ -5,11 +5,13 @@ We've trained a traditional CNN, an EfficientNet-B4 model, and a ResNet-50 model
 ---
 
 ## Overall Performance
+
+*Table 1: Performance metrics of different models*
 ```{literalinclude} outputs/performance_table.md
 :language: markdown
 ```
 
-There is a reasonable ordering of the performance of our three models based on quadratic weighted kappa, precision, recall, and F1-score:
+There is an ordering of the performance of our three models based on quadratic weighted kappa, precision, recall, and F1-score:
 
 **EfficientNet-B4**
 - Achieves the best performance across all metrics. Its high QWK of 0.8339 suggests it limits distant misclassifications and overall makes more accurate classifications.
@@ -28,6 +30,7 @@ Performance distributions among these 3 models were consistent for each of our 4
 
 ## Class-Wise Performance
 ![](outputs/classwise_heatmap.png)
+*Figure 1: Heatmap of Performance Metrics by Class and Model*
 
 This heatmap shows precision, recall, and F1-score for each model across all 5 classes. One trend immediately stands out - there is a significant inverse severity-performance relationship. As cases get more severe, model performance tends to degrade. Let's first look at each individual model's class-wise performance:
 
@@ -62,7 +65,7 @@ It's important we analyze what features our models focused on to make their clas
 
 ---
 
-![](outputs/CNN_gradcam.png)
+![](outputs/cnn_gradcam.png)
 
 The attention maps for the baseline CNN highlight important shortcomings of this model. With the exception of class 3, these images show that the model mostly focuses on the circular boundary of the eye rather than relevant pathological features. This may be due to the CNN focusing on high-contrast areas with strong edges as they are easiest to detect in shallow layers. This architecture may not be deep enough or may need further training for better feature detection.
 

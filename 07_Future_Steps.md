@@ -4,7 +4,8 @@
 - Experiment with other methods to handle class imbalance, such as weighted sampling or oversampling/undersampling.
 - Data augmentation would also be greatly beneficial for models to better understand underrepresented classes.
 - With a larger dataset, it would be more practical to train models from scratch instead of relying on ImageNet transfer learning.
-- As for modeling, try ensembling methods, such as a weighted average of predictions or model stacking.
+- Try ensembling methods, such as a weighted average of predictions or model stacking.
+- We fine-tuned pre-trained ResNet-50 and EfficientNet-B4 models on all layers - try freezing different layers to see how performance is impacted.
 
 **Additional Metrics:**
 - [Youden's Index](https://pmc.ncbi.nlm.nih.gov/articles/PMC2749250/): Balances sensitivity (true positive rate) and specificity (true negative rate). This can be a more effective classification threshold as it places more emphasis on true negatives and is also more interpretable to clinicians.

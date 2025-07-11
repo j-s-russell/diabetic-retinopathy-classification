@@ -12,6 +12,8 @@ Diabetic Retinopathy is an eye condition in people with diabetes and is the lead
 :width: 100%
 :::
 
+*Video: Diabetic retinopathy | Endocrine system diseases | NCLEX-RN | Khan Academy*
+
 
 ---
 
@@ -40,7 +42,7 @@ A convolutional neural network is a [deep learning model](https://aiml.com/what-
 The ResNet (Residual Network) model, introduced by He et al. ([2015](https://arxiv.org/abs/1512.03385)), is a CNN architecture that uses skip connections, which are shortcuts that transfer inputs to deeper layers in the network, mitigating the [vanishing gradient problem](https://aiml.com/what-do-you-mean-by-vanishing-and-exploding-gradient-problem-and-how-are-they-typically-addressed/). Deeper networks can learn much more complex features, typically leading to better performance. 
 ```
 
-```{tab-item} EfficientNet-B3
+```{tab-item} EfficientNet-B4
 EfficientNet was introduced by Tan and Le ([2019](https://arxiv.org/abs/1905.11946)) as a family of convolutional networks that scale depth, width, and resolution in a balanced way to achieve better accuracy with fewer parameters.
 ```
 ````
@@ -54,3 +56,22 @@ We will use a dataset of retina images and corresponding DR severity levels labe
 
 ![](images/data_preview.png)
 
+---
+
+## Project Roadmap
+
+- **Exploratory Data Analysis:** Explore the images and labels
+
+- **Image Preprocessing:** Crop, resize, and enhance the images to make the suitable for our models
+
+- **Define Evaluation Metrics:** Introduce quadratic weighted kappa, precision, recall, and F1 score, and explain how they will be used to interpret model predictions
+
+- **Train Baseline CNN:** Train our first model - a relatively simple convolutional neural network with PyTorch
+
+- **Train More Deep Learning Models:** Fine-tune pretrained ResNet-50 and EfficientNet-B4 models
+
+- **Compare Results:** Analyze our models based on overall performance and class-by-class performance
+
+- **Visualize Features:** Use Grad-CAM to analyze what parts of the retina our models focused on to make their predictions
+
+- **Conclusion:** Wrap up by discussing limitations of the project and possible avenues for improvement

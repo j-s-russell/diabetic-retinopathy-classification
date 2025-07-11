@@ -16,6 +16,7 @@ Our CNN will have a straightforward architecture consisting of multiple convolut
 :::{iframe} https://www.youtube.com/embed/HGwBXDKFk9I
 :width: 100%
 :::
+*Video: Neural Networks Part 8: Image Classification with Convolutional Neural Networks (CNNs) - StatQuest with Josh Starmer*
 
 ---
 

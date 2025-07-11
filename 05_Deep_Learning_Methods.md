@@ -83,8 +83,10 @@ We will use the pretrained EfficientNet-B3 and Resnet-50 from the PyTorch librar
 
 ---
 
+```{seealso}
 ResNet-50 and EfficientNet-B3 should address some of the limitations of our baseline CNN. However, there are several other excellent model architectures that are worth exploring. Here are a few suggestions:
 - [DenseNet](https://arxiv.org/abs/1608.06993)
 - [InceptionV3](https://arxiv.org/abs/1512.00567)
 - [VGG19](https://arxiv.org/abs/1409.1556)
 - [Vision Transformers (ViT)](https://arxiv.org/abs/2010.11929)
+```

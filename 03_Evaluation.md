@@ -52,7 +52,7 @@ Given these definitions, we define precision, recall, and F1-score with the form
 ---
 
 ## ROC (Receiver Operating Characteristic)
-The ROC Curve visualizes the trade-off between the true positive rate (recall) and the false positive rate at various classification thresholds. It is widely used to evaluate the discriminative ability of binary classifiers and can be extended to multiclass problems via a one-vs-rest approach (like our case).
+The [ROC Curve](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html) visualizes the trade-off between the true positive rate (recall) and the false positive rate at various classification thresholds. It is widely used to evaluate the discriminative ability of binary classifiers and can be extended to multiclass problems via a one-vs-rest approach (like our case).
 
 #### Why Use ROC?
 - ROC curves help you understand how well your model separates classes across different decision thresholds, which is useful for tuning sensitivity and specificity in medical diagnosis tasks.
@@ -68,7 +68,7 @@ The ROC Curve visualizes the trade-off between the true positive rate (recall) a
 ---
 
 ## PRC (Precision-Recall Curve)
-- The Precision-Recall Curve plots the trade-off between precision and recall across different classification thresholds. It is especially valuable for evaluating models on imbalanced datasets, like diabetic retinopathy severity classification, where positive cases are less frequent.
+- The [Precision-Recall Curve](https://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html) plots the trade-off between precision and recall across different classification thresholds. It is especially valuable for evaluating models on imbalanced datasets, like diabetic retinopathy severity classification, where positive cases are less frequent.
 
 #### Why Use PRC?
 - PRC provides a clearer picture of model performance on the minority (positive) class by focusing on how many positive predictions are correct (precision) and how many actual positives are identified (recall).
